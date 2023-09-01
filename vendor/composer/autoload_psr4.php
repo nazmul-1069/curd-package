@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Humaneye\\Simplecurd\\' => array($baseDir . '/src'),
+    'humaneye\\Simplecurd\\' => array($baseDir . '/src'),
 );

@@ -1,16 +1,16 @@
 {
-    "name": "Humaneye/simplecurd",
+    "name": "humaneye/simplecurd",
     "description": "This is a custom curd operation package.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Humaneye\\Simplecurd\\": "src/"
+            "humaneye\\Simplecurd\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Humaneye"
+            "name": "humaneye"
         }
     ],
     "minimum-stability": "dev",
