@@ -1,5 +1,5 @@
 <?php
-namespace Nazmulcurd\Simplecurd\Models;
+namespace Humaneye\Simplecurd\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

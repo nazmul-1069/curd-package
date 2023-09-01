@@ -1,16 +1,16 @@
 {
-    "name": "nazmul/simplecurd",
+    "name": "Humaneye/simplecurd",
     "description": "This is a custom curd operation package.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Nazmulcurd\\Simplecurd\\": "src/"
+            "Humaneye\\Simplecurd\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "nazmul"
+            "name": "Humaneye"
         }
     ],
     "minimum-stability": "dev",

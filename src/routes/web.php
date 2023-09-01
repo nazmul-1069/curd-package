@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['namespace'=>'Nazmulcurd\Simplecurd\Http\Controllers'],function(){
+Route::group(['namespace'=>'Humaneye\Simplecurd\Http\Controllers'],function(){
     Route::get('/category','CategoryController@index')->name('category');
     Route::get('/category-add','CategoryController@create')->name('category-add');
     Route::post('/category-store','CategoryController@store')->name('category-store');

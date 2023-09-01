@@ -1,5 +1,5 @@
 <?php 
-namespace Nazmulcurd\Simplecurd;
+namespace Humaneye\Simplecurd;
 
 use Illuminate\Support\ServiceProvider;
 

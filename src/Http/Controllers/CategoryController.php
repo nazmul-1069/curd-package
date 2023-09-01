@@ -1,11 +1,11 @@
 <?php
 
-namespace Nazmulcurd\Simplecurd\Http\Controllers;
+namespace Humaneye\Simplecurd\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
-use Nazmulcurd\Simplecurd\Models\Category;
+use Humaneye\Simplecurd\Models\Category;
 class CategoryController extends Controller
 {
     public function index()
