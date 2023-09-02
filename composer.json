@@ -8,6 +8,15 @@
             "humaneye\\Simplecurd\\": "src/"
         }
     },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "humaneye\\Simplecurd\\ServiceProvider"
+            ]
+        }
+    },
+
     "authors": [
         {
             "name": "humaneye",
