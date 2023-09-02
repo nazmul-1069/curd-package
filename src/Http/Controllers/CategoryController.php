@@ -26,6 +26,7 @@ class CategoryController extends Controller
         ]);
 
         if ($validator->fails()) {
+            
             return redirect('category-add')
                         ->withErrors($validator)
                         ->withInput();

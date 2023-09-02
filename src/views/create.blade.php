@@ -117,13 +117,22 @@
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
+    
     <section class="content">
       <div class="container-fluid">
         <div class="row">
-            <div class="col-md-1"></div>
+          <div class="col-md-1"></div>
           <!-- left column -->
           <div class="col-md-8">
-           
+          @if ($errors->any())
+            <div class="alert alert-danger alert-dismissible">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                  <h5><i class="icon fas fa-ban"></i> Alert!</h5>
+                  @foreach ($errors->all() as $error)
+                    {{ $error }}
+                  @endforeach
+            </div>
+          @endif
             <!-- general form elements --> 
             <div class="card card-primary">
               <div class="card-header">

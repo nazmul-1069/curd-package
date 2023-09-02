@@ -10,7 +10,9 @@
     },
     "authors": [
         {
-            "name": "humaneye"
+            "name": "humaneye",
+            "email":"nazmulhasan.cse@gmail.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
